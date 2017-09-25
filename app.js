@@ -1,1 +1,3 @@
-const promise = new Promise();
+let thing = new Promise((resolve, reject) => {
+    resolve();
+});
